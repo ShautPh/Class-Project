@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shop</title>
+    <!-- link to font awesome in w3 school -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- link to style css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/logo.png" image/x-icon">
+</head>
+<body>
+    <header class="header ds-flex">
+        <div class="logo">
+            <i class="fa fa-scribd"></i> <p>Online Shop</p> 
+        </div>
+        <div class="search-button">
+            <input type="text" placeholder="search products..">
+            <i class="fa fa-search"></i>
+        </div>
+        <div class="header-icons">
+            <i class="fa fa-map-marker"></i>
+            <i class="fa fa-heart"></i>
+            <i class="fa fa-shopping-cart"></i>
+        </div>
+    </header>
+    <div class="menu ds-flex">
+        <nav class="navbar">
+            <input type="checkbox" id="click">
+            <label for="click" class="menu-bars">
+                <i class="fa fa-bars"></i>
+            </label>
+            <ul>
+                <li ><a href="#products"id="active">Clothes</a></li>
+                <li><a href="pages/car.html">Car</a></li>
+                <li><a href="pages/computer.html">Computer</a></li>
+            </ul>
+        </nav>
+        <div class="icons">
+            <div class="fa fa-bell"></div>
+            <div class="fa fa-user-circle-o"></div>
+            <label for="fa-user"><a href="pages/index2.html"><b>sign in</b></a></label>
+        </div>
+    </div>
+    <!-- manner -->
+    <div class="home-manner">
+        <div class="home">
+            <p>New Fashion and Original</p>
+            <h1>Stock up on <span>Daily Essential</span></h1>
+            <p>Save big on your favorite brands</p>
+            <button class="btn"><i class="fa fa-shopping-cart"></i> Shop Now</button>
+        </div>
+    </div>
+    <!-- content-bars -->
+    <div class="content-bars">
+        <ul>
+            <li><a href="#best-deal">Best Deal</a></li>
+            <li><a href="#new-arrival">New Arrival</a></li>
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="#services">Our Services</a></li>
+        </ul>
+    </div>
+    
+    <div class="social-medai sticky">
+        <div class="fa fa-facebook"></div>
+        <div class="fa fa-linkedin"></div>
+        <div class="fa fa-instagram"></div>
+        <div class="fa fa-twitter"></div>
+    </div>
+    <!-- content-best-deal -->
+    <div class="container content-best-deal" id="best-deal">
+        <div class="title">
+            <h1>Best Deal</h1>
+        </div>
+        <div class="box-container">
+            <div class="box">
+                <div class="box-header">
+                    <p>Best Deal</p>
+                    <div class="icons">
+                        <i class="fa fa-heart"></i>
+                        <i class="fa fa-thumbs-o-up"></i>
+                    </div>
+                </div>
+                <div class="box-body">
+                    <img src="images/best-deal-1.jpg" alt="" width="100%">
+                </div>
+                <div class="box-footer">
+                    <p>Name Clothes <br>
+                    Price: <strike>$15.50</strike> - $10.50</p>
+                    <input type="number" placeholder="1" class="number">
+                    <button class="btn"><i class="fa fa-shopping-cart"></i> Add To Cart</button>
+                    <button class="btn">View more</button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-header">
+                    <p>Best Deal</p>
+                    <div class="icons">
+                        <i class="fa fa-heart"></i>
+                        <i class="fa fa-thumbs-o-up"></i>
+                    </div>
+                </div>
+                <div class="box-body">
+                    <img src="images/best-deal-2.jpg" alt="" width="100%">
+                </div>
+                <div class="box-footer">
+                    <p>Name Clothes <br>
+                    Price: <strike>$15.50</strike> - $10.50</p>
+                    <input type="number" placeholder="1" class="number">
+                    <button class="btn"><i class="fa fa-shopping-cart"></i> Add To Cart</button>
+                    <button class="btn">View more</button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-header">
+                    <p>Best Deal</p>
+                    <div class="icons">
+                        <i class="fa fa-heart"></i>
+                        <i class="fa fa-thumbs-o-up"></i>
+                    </div>
+                </div>
+                <div class="box-body">
+                    <img src="images/best-deal-3.jpg" alt="" width="100%">
+                </div>
+                <div class="box-footer">
+                    <p>Name Clothes <br>
+                    Price: <strike>$15.50</strike> - $10.50</p>
+                    <input type="number" placeholder="1" class="number">
+                    <button class="btn"><i class="fa fa-shopping-cart"></i> Add To Cart</button>
+                    <button class="btn">View more</button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-header">
+                    <p>Best Deal</p>
+                    <div class="icons">
+                        <i class="fa fa-heart"></i>
+                        <i class="fa fa-thumbs-o-up"></i>
+                    </div>
+                </div>
+                <div class="box-body">
+                    <img src="images/best-deal-4.jpg" alt="" width="100%">
+                </div>
+                <div class="box-footer">
+                    <p>Name Clothes <br>
+                    Price: <strike>$15.50</strike> - $10.50</p>
+                    <input type="number" placeholder="1" class="number">
+                    <button class="btn"><i class="fa fa-shopping-cart"></i> Add To Cart</button>
+                    <button class="btn">View more</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- new-arrival -->
+    <div class="container content-new-arrival" id="new-arrival">
+        <div class="title">
+            <h1>New Arrival</h1>
+        </div>
+        <div class="box-container">
+            <div class="box">
+                <div class="image image1">
+                    <i class="fa fa-heart"></i>
+                </div>
+                <div class="description">
+                    <p>Cloth Name</p>
+                    <b>$12.99</b>
+                    <div class="icons-stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-full"></i>
+                    </div>
+                    <p>New Arrival</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image image2">
+                    <i class="fa fa-heart"></i>
+                </div>
+                <div class="description">
+                    <p>Cloth Name</p>
+                    <b>$22.99</b>
+                    <div class="icons-stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-full"></i>
+                    </div>
+                    <p>New Arrival</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image image3">
+                    <i class="fa fa-heart"></i>
+                </div>
+                <div class="description">
+                    <p>Cloth Name</p>
+                    <b>$14.44</b>
+                    <div class="icons-stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-full"></i>
+                    </div>
+                    <p>New Arrival</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image image4">
+                    <i class="fa fa-heart"></i>
+                </div>
+                <div class="description">
+                    <p>Cloth Name</p>
+                    <b>$12.50</b>
+                    <div class="icons-stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-full"></i>
+                    </div>
+                    <p>New Arrival</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image image5">
+                    <i class="fa fa-heart"></i>
+                </div>
+                <div class="description">
+                    <p>Chain-belt Shirt Dess</p>
+                    <b>$29.99</b>
+                    <div class="icons-stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-full"></i>
+                    </div>
+                    <p>New Arrival</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image image6">
+                    <i class="fa fa-heart"></i>
+                </div>
+                <div class="description">
+                    <p>Cloth Name</p>
+                    <b>$32.66</b>
+                    <div class="icons-stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-full"></i>
+                    </div>
+                    <p>New Arrival</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image image7">
+                    <i class="fa fa-heart"></i>
+                </div>
+                <div class="description">
+                    <p>Cotton Jersey T-shirt</p>
+                    <b>$5.99</b>
+                    <div class="icons-stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-full"></i>
+                    </div>
+                    <p>New Arrival</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image image8">
+                    <i class="fa fa-heart"></i>
+                </div>
+                <div class="description">
+                    <p>Cloth Name</p>
+                    <b>$8.50</b>
+                    <div class="icons-stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-full"></i>
+                    </div>
+                    <p>New Arrival</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image image9">
+                    <i class="fa fa-heart"></i>
+                </div>
+                <div class="description">
+                    <p>Cloth Name</p>
+                    <b>$20.50</b>
+                    <div class="icons-stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-full"></i>
+                    </div>
+                    <p>New Arrival</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image image10">
+                    <i class="fa fa-heart"></i>
+                </div>
+                <div class="description">
+                    <p>Cloth Name</p>
+                    <b>$18.50</b>
+                    <div class="icons-stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-full"></i>
+                    </div>
+                    <p>New Arrival</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image image11">
+                    <i class="fa fa-heart"></i>
+                </div>
+                <div class="description">
+                    <p>Cloth Name</p>
+                    <b>$28.50</b>
+                    <div class="icons-stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-full"></i>
+                    </div>
+                    <p>New Arrival</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image image12">
+                    <i class="fa fa-heart"></i>
+                </div>
+                <div class="description">
+                    <p>Cropped Turtleneck Sweater</p>
+                    <b>$17.99</b>
+                    <div class="icons-stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-full"></i>
+                    </div>
+                    <p>New Arrival</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- content categories -->
+    <div class="container content-categories" id="categories">
+        <div class="title">
+            <h1>Categories</h1>
+        </div>
+        <div class="box-container">
+            <div class="box">
+                <div class="padd box-header">
+                    <div class="fa fa-heart"></div>
+                    <div class="fa fa-shopping-cart"></div>
+                    <div class="fa fa-eye"></div>
+                </div>
+                <div class="image">
+                    <img src="images/cate-1.jpg" alt="" width="100%">
+                </div>
+                <p class="advertise">Special discount</p>
+                <div class="padd icons-stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-full"></i>
+                </div>
+                <div class="box-footer">
+                    <p><b>$12.99 </b>~ <strike>$15.99</strike></p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="padd box-header">
+                    <div class="fa fa-heart"></div>
+                    <div class="fa fa-shopping-cart"></div>
+                    <div class="fa fa-eye"></div>
+                </div>
+                <div class="image">
+                    <img src="images/cate-3.jpg" alt="" width="100%">
+                </div>
+                <p class="advertise">Special discount</p>
+                <div class="padd icons-stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-full"></i>
+                </div>
+                <div class="box-footer">
+                    <p><b>$12.99 </b>~ <strike>$15.99</strike></p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="padd box-header">
+                    <div class="fa fa-heart"></div>
+                    <div class="fa fa-shopping-cart"></div>
+                    <div class="fa fa-eye"></div>
+                </div>
+                <div class="image">
+                    <img src="images/cate-4.jpg" alt="" width="100%">
+                </div>
+                <p class="advertise">Special discount</p>
+                <div class="padd icons-stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-full"></i>
+                </div>
+                <div class="box-footer">
+                    <p><b>$12.99 </b>~ <strike>$15.99</strike></p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="padd box-header">
+                    <div class="fa fa-heart"></div>
+                    <div class="fa fa-shopping-cart"></div>
+                    <div class="fa fa-eye"></div>
+                </div>
+                <div class="image">
+                    <img src="images/cate-5.jpg" alt="" width="100%">
+                </div>
+                <p class="advertise">Special discount</p>
+                <div class="padd icons-stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-full"></i>
+                </div>
+                <div class="box-footer">
+                    <p><b>$12.99 </b>~ <strike>$15.99</strike></p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="padd box-header">
+                    <div class="fa fa-heart"></div>
+                    <div class="fa fa-shopping-cart"></div>
+                    <div class="fa fa-eye"></div>
+                </div>
+                <div class="image">
+                    <img src="images/arrival-7-hover.jpg" alt="" width="100%">
+                </div>
+                <p class="advertise">Special discount</p>
+                <div class="padd icons-stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-full"></i>
+                </div>
+                <div class="box-footer">
+                    <p><b>$12.99 </b>~ <strike>$15.99</strike></p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="padd box-header">
+                    <div class="fa fa-heart"></div>
+                    <div class="fa fa-shopping-cart"></div>
+                    <div class="fa fa-eye"></div>
+                </div>
+                <div class="image">
+                    <img src="images/cate-5.jpg" alt="" width="100%">
+                </div>
+                <p class="advertise">Special discount</p>
+                <div class="padd icons-stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-full"></i>
+                </div>
+                <div class="box-footer">
+                    <p><b>$12.99 </b>~ <strike>$15.99</strike></p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="padd box-header">
+                    <div class="fa fa-heart"></div>
+                    <div class="fa fa-shopping-cart"></div>
+                    <div class="fa fa-eye"></div>
+                </div>
+                <div class="image">
+                    <img src="images/arrival-3-hover.jpg" alt="" width="100%">
+                </div>
+                <p class="advertise">Special discount</p>
+                <div class="padd icons-stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-full"></i>
+                </div>
+                <div class="box-footer">
+                    <p><b>$12.99 </b>~ <strike>$15.99</strike></p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="padd box-header">
+                    <div class="fa fa-heart"></div>
+                    <div class="fa fa-shopping-cart"></div>
+                    <div class="fa fa-eye"></div>
+                </div>
+                <div class="image">
+                    <img src="images/arrival-12-hover.jpg" alt="" width="100%">
+                </div>
+                <p class="advertise">Special discount</p>
+                <div class="padd icons-stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-full"></i>
+                </div>
+                <div class="box-footer">
+                    <p><b>$12.99 </b>~ <strike>$15.99</strike></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- content-services -->
+    <div class="container content-services" id="services">
+        <div class="title">
+            <h1>Our Services</h1>
+        </div>
+        <div class="box-container">
+            <div class="card">
+                <img src="images/motor-delivery.jpg" alt="" width="100%">
+                <h3>Delivery 24/24 hours</h3>
+                <b>Fast and keep your goods safety</b>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, doloremque.</p>
+            </div>
+            <div class="card">
+                <img src="images/car-delivery.jpg" alt="" width="100%">
+                <h3>Delivery 24/24 hours</h3>
+                <b>Fast and keep your goods safety</b>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, doloremque.</p>
+            </div>
+            <div class="card">
+                <img src="images/feature-img-2.png" alt="" width="100%">
+                <h3>Delivery 24/24 hours</h3>
+                <b>Fast and keep your goods safety</b>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, doloremque.</p>
+            </div>
+            <div class="card">
+                <img src="images/doorstep.jpg" alt="" width="100%">
+                <h3>Delivery 24/24 hours</h3>
+                <b>Fast and keep your goods safety</b>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, doloremque.</p>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <section>
+        <h1>Contact Us</h1>
+        <div class="contaction">
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3909.0138349990607!2d104.88089491377531!3d11.550865047581892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310951add5e2cd81%3A0x171e0b69c7c6f7ba!2sPasserelles%20Num%C3%A9riques%20Cambodia%20(PNC)!5e0!3m2!1sen!2skh!4v1635093111653!5m2!1sen!2skh" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="form">
+                <h2>Give Your Feedback</h2>
+                <div>
+                    <input type="text" placeholder="Username" class="form-control">
+                </div>
+                <div>
+                    <input type="email" placeholder="email" class="form-control">
+                </div>
+                <div>
+                    <textarea name=""  rows="8" placeholder="Message" class="form-control"></textarea>
+                </div>
+                <div>
+                    <button>Send <i class="fa fa-paper-plane"></i></button>
+                </div>  
+            </div>
+        </div>
+    </section>
+    <div class="footer-body">
+        <div class="logo">
+            <i class="fa fa-scribd"></i>Online Shop
+            <p>New Fashion and Original, Stock up on Daily Essential</p>
+        </div>
+        <div class="address">
+            <p><i class="fa fa-map-pin"></i><b> My Address:</b> 11, Tek Laork 3, Toul Kork,street 269, Phnom Penh</p>
+            <p><i class="fa fa-phone"></i><b> Phone number:</b> 096 716 2831</p>
+            <p><i class="fa fa-envelope"></i><b> Email address:</b> sauth.phouek168@gmail.com</p>
+        </div>
+        <div class="icon">
+            <h5>Social Media</h5>
+            <div class="social-medai flex-icons">
+                <div class="fa fa-facebook"></div>
+                <div class="fa fa-linkedin"></div>
+                <div class="fa fa-instagram"></div>
+                <div class="fa fa-twitter"></div>
+                <div class="fa fa-youtube-play"></div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-footer">
+        <p>Designed by Sauth Phouek | All right resevered </p>
+    </div>
+</body>
+</html>
